@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
+          username: ${{ GITHUB_USER }}
           password: ${{ secrets.AKM_TOKEN }}
       - name: Publish
         uses: home-assistant/builder@master
