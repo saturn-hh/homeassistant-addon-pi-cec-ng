@@ -3,7 +3,7 @@
   "version": "0.3",
   "slug": "pi_cec",
   "description": "Raspberry Pi HTTP CEC server",
-  "url": "https://github.com/samueltardieu/homeassistant-addon-pi-cec",
+  "url": "https://github.com/samueltardieu/homeassistant-addon-pi-cec-ng",
   "arch": [ "armhf", "armv7" ],
   "startup": "services",
   "boot": "auto",
