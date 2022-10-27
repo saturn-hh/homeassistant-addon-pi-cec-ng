@@ -17,7 +17,7 @@
   "ports_description": {
     "9526/tcp": "TCP socket for outside communication (not required)"
   },
-  "devices": ["/dev/vchiq"],
+  "devices": ["/dev/ttyACM0"],
   "image": "rfc1149/{arch}-addon-pi_cec",
   "panel_icon": "mdi:video-input-hdmi"
 }
